@@ -99,6 +99,7 @@ using namespace std;
 		vbalok = p*l*t;
 		cout<<"Volume Balok Adalah		= "<<"cm^3"<<vbalok<<endl;
 	}
+
 	void tampilan()
 	{
 		int input;
@@ -141,19 +142,19 @@ using namespace std;
 				volumBalok();
 				break;
 		
+		}
 	}
+
 	int main()
 	{
 		char quit  = 'y';
 		while (quit == 'y')
 		{
-			cout<<"Program Mencari Luas & Volume Bagun Ruang"<<end;
+			cout<<"Program Mencari Luas & Volume Bagun Ruang"<<endl;
 			tampilan();
 			cout<<"Apakah Anda ingin Lanjut (y/n) : "<<endl;
 			cin>>quit;
 		}
 		cout<<"program telah selesAi"<<endl;
 		cout<<"Anda Akan Keluar DAri PrOgRaM"<<endl;
-	
 	}
-}
