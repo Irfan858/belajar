@@ -143,7 +143,7 @@ using namespace std;
 				break;
 		
 		}
-	}
+	} // Kurang Kurawal Di Siko Ang Tadi....
 
 	int main()
 	{
